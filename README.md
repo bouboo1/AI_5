@@ -49,5 +49,9 @@ python main.py --train --epoch 5 --model bert-base-uncased --type cat
 预测模型
 
 ```shell
-python main.py --test --model bert-base-uncased --type cat --load_model_path  + 模型所在位置 
+python main.py --test --model bert-base-uncased --type cat --load_model_path  + 模型所在位置 （例如output/cat/model.bin）
 ```
+## 参考
+https://github.com/RecklessRonan/GloGNN/blob/master/readme.md
+
+注意：数据集过大需要自行下载。
